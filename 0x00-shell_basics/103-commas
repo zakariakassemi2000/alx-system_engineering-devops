@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1A | awk 'BEGIN {ORS=", "; FS="\n"} {print $1} END {print "\b\b\n"}'
