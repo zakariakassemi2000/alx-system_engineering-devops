@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la > ls_cwd_content && echo "File ls_cwd_content updated or created."
+echo "ls-la" >ls_cmd_content
